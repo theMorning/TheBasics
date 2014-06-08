@@ -21,25 +21,58 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="This be what&apos;s up"
+        android:text="@string/this_be_what_apos_s_up"
         android:textColor="#ffffff" />
 
-    <Button
-        android:id="@+id/tutorial1"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/button1"
-        android:textColor="#ffffff"
-        android:textSize="25sp"
-        android:textStyle="bold" />
-
-    <Button
-        android:id="@+id/tutorial2"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Button 2"
-        android:textColor="#ffffff"
-        android:textSize="25sp"
-        android:textStyle="bold" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="200dp">
+    	<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical">"
+		    <Button
+		        android:id="@+id/tutorial1"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/button1"
+		        android:textColor="#ffffff"
+		        android:textSize="25sp"
+		        android:textStyle="bold" />
+		
+		    <Button
+		        android:id="@+id/tutorial2"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/button_2"
+		        android:textColor="#ffffff"
+		        android:textSize="25sp"
+		        android:textStyle="bold" />
+		
+		    <Button
+		        android:id="@+id/tutorial3"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/tutorial_3"
+		        android:textColor="#ffffff"
+		        android:textSize="25sp"
+		        android:textStyle="bold" />
+		
+		    <Button
+		        android:id="@+id/tutorial4"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/button_2"
+		        android:textColor="#ffffff"
+		        android:textSize="25sp"
+		        android:textStyle="bold" />
+		
+		    <Button
+		        android:id="@+id/tutorial5"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/button_2"
+		        android:textColor="#ffffff"
+		        android:textSize="25sp"
+		        android:textStyle="bold" />
+	    
+	    </LinearLayout>
+	    
+	</ScrollView>
 
 </LinearLayout>

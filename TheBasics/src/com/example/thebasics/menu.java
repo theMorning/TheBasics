@@ -23,6 +23,7 @@ public class menu extends Activity {
 		
 		Button tut1 = (Button)findViewById(R.id.tutorial1);
 		Button tut2 = (Button)findViewById(R.id.tutorial2);
+		Button tut3 = (Button)findViewById(R.id.tutorial3);
 		
 		tut1.setOnClickListener(new View.OnClickListener() {
 			
@@ -40,7 +41,17 @@ public class menu extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				buttonSound.start();
-				startActivity(new Intent("com.mybringback.thebasics.TUTORIALONE"));
+				startActivity(new Intent("com.mybringback.thebasics.TUTORIALTWO"));
+			}
+		});
+		
+		tut3.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				buttonSound.start();
+				startActivity(new Intent("com.mybringback.thebasics.TUTORIALTHREE"));
 			}
 		});
 	}

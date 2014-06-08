@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <string name="app_name">TheBasics</string>
     <string name="action_settings">Settings</string>
@@ -15,5 +15,6 @@
     <string name="right">Right</string>
     <string name="generate">Generate</string>
     <string name="type_in_text_and_press_the_button_below">Type in text and press the button below</string>
+    <string name="openSweetActivity">Open Sweet Activity</string>    <string name="open_toast">Open Toast</string>    <string name="this_be_what_apos_s_up">This be what&amp;apos;s up</string>    <string name="button_2">Button 2</string>    <string name="tutorial_3">Tutorial 3</string>    <string name="set_image_to_background">Set Image to Background</string>
 
 </resources>

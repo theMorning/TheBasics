@@ -9,10 +9,10 @@
     <item 
         android:id="@+id/menuSweet"
         android:alphabeticShortcut="s"
-        android:title="Open Sweet Activity" />
+        android:title="@string/openSweetActivity" />
 
     <item 
         android:id="@+id/menuToast"
         android:alphabeticShortcut="t"
-        android:title="Open Toast" />"
+        android:title="@string/open_toast" />
 </menu>

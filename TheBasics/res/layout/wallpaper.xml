@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView android:src="@drawable/back_black"
+        android:layout_width="200dp" android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:id="@+id/IVdisplay"
+        android:contentDescription="black tesla"/>
+    
+    <Button android:id="@+id/BsetWallpaper" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="@string/set_image_to_background"></Button>
+    
+    <HorizontalScrollView android:layout_width="200dp" android:layout_height="wrap_content"
+        android:layout_gravity="center">
+    
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+	        <ImageView android:src="@drawable/back_black"
+	        android:layout_width="125dp" android:layout_height="125dp"
+	        android:padding="15dp"
+	        android:id="@+id/IVimage1"
+        	android:contentDescription="black tesla"
+	        />
+	    
+	        <ImageView android:src="@drawable/back_blue"
+	        android:layout_width="125dp" android:layout_height="125dp"
+	        android:padding="15dp"
+	        android:id="@+id/IVimage2"
+        	android:contentDescription="blue tesla"
+	        />
+	    
+	        <ImageView android:src="@drawable/back_logo"
+	        android:layout_width="125dp" android:layout_height="125dp"
+	        android:padding="15dp"
+	        android:id="@+id/IVimage3"
+        	android:contentDescription="logo tesla"
+	        />
+	    
+	        <ImageView android:src="@drawable/back_nikola"
+	        android:layout_width="125dp" android:layout_height="125dp"
+	        android:padding="15dp"
+	        android:id="@+id/IVimage4"
+        	android:contentDescription="nikola tesla"
+	        />
+	    
+	        <ImageView android:src="@drawable/back_red"
+	        android:layout_width="125dp" android:layout_height="125dp"
+	        android:padding="15dp"
+	        android:id="@+id/IVimage5"
+        	android:contentDescription="red tesla"
+	        />
+	    
+	        <ImageView android:src="@drawable/back_white"
+	        android:layout_width="125dp" android:layout_height="125dp"
+	        android:padding="15dp"
+	        android:id="@+id/IVimage6"
+        	android:contentDescription="blawhiteck tesla"
+	        />
+        </LinearLayout>"
+	</HorizontalScrollView>
+</LinearLayout>
